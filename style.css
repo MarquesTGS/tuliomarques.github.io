@@ -64,15 +64,15 @@ header{
 
     max-width:1200px;
 
-    margin:auto;
+    height:70px;
 
-    height:75px;
+    margin:0 auto;
 
     display:flex;
 
-    align-items:center;
-
     justify-content:space-between;
+
+    align-items:center;
 
     padding:0 40px;
 
@@ -88,15 +88,40 @@ header{
 
 }
 
+/* ESTA PARTE SUMIU */
+
+.nav-links{
+
+    display:flex;
+
+    list-style:none;
+
+    align-items:center;
+
+    gap:40px;
+
+    margin:0;
+
+    padding:0;
+
+}
+
+.nav-links li{
+
+    list-style:none;
+
+}
+
 .nav-links a{
 
-    color:#f2f2f2;
+    color:white;
 
     font-weight:500;
 
-    transition:.3s;
+    transition:.25s;
 
 }
+
 .nav-links a:hover{
 
     color:#7fb8ff;
@@ -123,7 +148,7 @@ header{
 
     gap:80px;
 
-    padding:120px 40px 40px;
+    padding:90px 40px 40px;
 
 }
 
